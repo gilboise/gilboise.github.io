@@ -12,6 +12,7 @@
 
 body {
   background:black url(bg.jpeg) no-repeat center top;
+  background-position-y: 30px;
 }
 
 #header {
