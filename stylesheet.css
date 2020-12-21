@@ -1,0 +1,91 @@
+  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+  [class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+  }
+
+#bg {
+  margin-top: 40;
+  margin-right: 0 0 0 0;
+  border: 0 0 0 0;
+}
+
+body {
+  background:black url(bg.jpeg) no-repeat center top;
+}
+
+#header {
+  position: relative;
+  min-height: 250px;
+}
+
+#header-content {
+  position: absolute;
+  text-align: center !important;
+  align: center !important;
+  width: 95%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.radioplayer {
+    text-align: center !important;
+    align: center !important;
+    position: fixed;
+    height: 109px;
+    khtml-user-select: none;
+    moz-user-select: none;
+    ms-user-select: none;
+    padding: 20px;
+    user-select: none;
+    webkit-touch-callout: none;
+    webkit-user-select: none;
+    width: 500px;
+}
+
+.radioco-playButton-playing:before{
+  font-family: 'FontAwesome', sans-serif;
+  text-align: center !important;
+  align: center !important;
+  content: "\f04b";
+}
+
+.radioco-playButton-paused:before{
+  font-family: 'FontAwesome', sans-serif;
+  content:"\f04c";
+  text-align: center !important;
+  align: center !important;
+}
+
+.radioco-playButton{
+  text-align: center !important;
+  align: center !important;
+  color: white;
+  position: fixed;
+  z-index: 2;
+  font-size:150px;
+}
+
+.radioco-playButton:active{
+  position: fixed;
+  text-align: center !important;
+  align: center !important;
+  color: white;
+}
+
+.radioco-playButton-playing{
+  font-family: "controls";
+  position: fixed;
+  text-align: center !important;
+  align: center !important;
+  text-size:150%;
+}
+
+.radioco-playButton-paused{
+  font-family: "controls";
+  position: fixed;
+  text-align: center !important;
+  align: center !important;
+  text-size:150%;
+}
