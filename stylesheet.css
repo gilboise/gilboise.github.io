@@ -6,7 +6,7 @@
 
 #bg {
   margin-top: 40;
-  margin-right: 0 0 0 0;
+  margin-right: 40;
   border: 0 0 0 0;
 }
 
@@ -17,14 +17,14 @@ body {
 
 #header {
   position: relative;
-  min-height: 250px;
+  min-height: 470px;
 }
 
 #header-content {
   position: absolute;
   text-align: center !important;
   align: center !important;
-  width: 95%;
+  width: 90%;
   bottom: 0;
   left: 0;
   margin: auto;
